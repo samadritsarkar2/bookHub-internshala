@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ImageView
+            android:id="@+id/imgHeaderIcon"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/book_app_icon_web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgHeaderIcon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/navigation_drawer"
+            android:textSize="20sp"
+
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"/>
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>
