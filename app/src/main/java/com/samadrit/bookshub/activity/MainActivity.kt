@@ -122,6 +122,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openDashboard(){
+
+        
          var fragment = DashboardFragment()
         var transaction = supportFragmentManager.beginTransaction()
         supportActionBar?.title = "Dashboard"
